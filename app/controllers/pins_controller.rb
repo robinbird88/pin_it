@@ -3,7 +3,7 @@ class PinsController < ApplicationController
 
 
 	def index
-		@pins = Pin.all.order("created_at DESC")
+		@pin = Pin.all.order("created_at DESC")
 	end
 
 	def show
@@ -14,7 +14,7 @@ class PinsController < ApplicationController
 	end
 
 	def create
-		@pin = current_user.pins.build(pins_params)
+		@pins = current_user.pins.build(pins_params)
 
 		if @pin.save
 			redirect_to @pin, notice: "Successfully created new Pin"
@@ -42,7 +42,7 @@ class PinsController < ApplicationController
 private
 
 	def pins_params
-		params.require(:pin).permit(:title, :description)
+		params.require(:pin).permit(:title, :description, :image)
 	end
 
 	def find_pin
