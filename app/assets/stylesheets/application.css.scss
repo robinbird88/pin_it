@@ -41,15 +41,15 @@ nav {
 
 #pins {
   margin: 0 auto;
-  width: 100%;
+  width: 50%;
   .box {
 	  margin: 10px;
-	  width: 350px;
+	  width: 300px;
 	  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
 	  border-radius: 7px;
 	  text-align: center;
 	  img {
-	  	max-width: 100%;
+	  	max-width: 75%;
 	  	height: auto;
 	  }
 	  h2 {
@@ -114,4 +114,18 @@ nav {
 
 textarea {
 	min-height: 250px;
+}
+
+
+#pins {
+    margin: 0 auto;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* padding-left: 70px; */
+    margin: 0% 5% 0% 5%;
+}
+
+img {
+    padding-top: 20px;
 }
