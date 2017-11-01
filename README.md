@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Overview
+This is a Pinterest styled app that allows users to sign up, login, pin their
+interest, like, and comment!
 
-Things you may want to cover:
+* Link
+ https://infinite-beach-56786.herokuapp.com/(Heroku)
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Technologies
+Languages - HTML, CSS, Ruby on Rails
+Design - Google Fonts, Bootstrap
+Atom/Sublime Text Editor
